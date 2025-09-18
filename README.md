@@ -43,9 +43,13 @@ To illustrate a cost effective platform to  allow for the practice and self stud
 ### Prerequisites
 This guide will illustrate how to setup the environment both on Windows & Linux.  Before lab setup, ensure your PC/Laptop meets minimum requirements for successful operation:
 
-Windows:  Click on Start > in search box type: `msinfo`
+Windows:  Click on Start > in search box type: `msinfo` > press Enter
 
-Linux (Mint): Click on LM button (bottom left) > type: `System Info`
+Linux (Mint): Click on LM button (bottom left) > type: `System Info` > press Enter
+
+<p float="center">
+  <img src="images/MsInfo.png" width="200" />
+  <img src="images/MintSystemInfo.png" width="200" />
 
 
 
