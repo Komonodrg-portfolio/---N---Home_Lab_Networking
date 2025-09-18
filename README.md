@@ -87,12 +87,12 @@ Once the installation file downlods successfully, proceed with installation of V
  <summary><h4>c) Install VMWare Workstation</h4></summary>
   <br> 
   
-
 **Windows:**  Navigate to where the file downloaded, and double click it to start the installer...
 
 **Linux:** A few extra steps are needed prior in order to get this installation completed:
 <br>
-Open up Terminal to install VMWare:
+Open up **Terminal** to install VMWare:
+<br>
 <br>
 
 | Step    | Command |
