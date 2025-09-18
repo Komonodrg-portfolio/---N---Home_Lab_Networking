@@ -48,7 +48,7 @@ Windows:  Click on Start > in search box type: `msinfo` > press Enter
 Linux (Mint): Click on LM button (bottom left) > type: `System Info` > press Enter
 
 <p float="center">
-  <img src="images/MsInfo.png" width="200" />
+  <img src="images/MSInfo.png" width="200" />
   <img src="images/MintSystemInfo.png" width="200" />
 
 
