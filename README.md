@@ -47,7 +47,8 @@ This guide will illustrate how to setup the environment both on Windows & Linux.
 <details>
  <summary><h4>a) System Requirements</h4></summary>
   <br> 
-Before lab setup, ensure your PC/Laptop meets minimum requirements for successful operation:
+Before lab setup, ensure your PC/Laptop meets minimum requirements for successful operation:<br> 
+ <br>
 
 **Windows:**  Click on Start > in search box type: `msinfo` > press Enter
 
