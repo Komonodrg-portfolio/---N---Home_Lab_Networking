@@ -40,6 +40,16 @@ To illustrate a cost effective platform to  allow for the practice and self stud
 
 ## 🔧 Setup Instructions
 
+### Prerequisites
+This guide will illustrate how to setup the environment both on Windows & Linux.  Before lab setup, ensure your PC/Laptop meets minimum requirements for successful operation:
+
+Windows:  Click on Start > in search box type: `msinfo`
+
+Linux (Mint): Click on LM button (bottom left) > type: `System Info`
+
+
+
+
 ### 1. Install EVE-NG
 Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php/documentation/) or run it in VMware/VirtualBox on Linux Mint.
 
