@@ -109,6 +109,15 @@ Open up **Terminal** to install VMWare:
  <p align="left">
  <img src="images/VMWareInstall7.png" alt="Image 1" width="60%" style="margin-right: 10px;"/>
 
+ ---
+
+ <p align="center">
+ <img src="images/VMWareInstall8.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+ <img src="images/VMWareInstall9.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+ <img src="images/VMWareInstall10.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+ <img src="images/VMWareInstall11.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+</p>  
+
 
 
 
