@@ -49,13 +49,15 @@ This guide will illustrate how to setup the environment both on Windows & Linux.
 
 
  <p align="center">
-  <img src="images/MSInfo.png" alt="Image 1" width="45%" style="margin-right: 0px;"/>
+  <img src="images/MSInfo.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   <img src="images/MintSystemInfo.png" alt="Image 2" width="40%" />
 </p>
 
 Check your system specifications vs what the [official EVE-NG installation guide](https://www.eve-ng.net/index.php/documentation/) recommends.  As of the date of this repo creation, current recommended specs:
 
 
+ <p align="center">
+  <img src="images/SystemReqs.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
 
 
 ### 1. Install EVE-NG
