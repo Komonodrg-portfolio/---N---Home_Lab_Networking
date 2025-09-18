@@ -97,13 +97,17 @@ Open up Terminal to install VMWare:
 
 | Step    | Command |
 |---------|---------|
-| 1) Navigate to download location  | `cd ~/Downloads` |
-| 2) List files in Downlaods folder  | `ls` |
-| 3) Make installation file executable  | `chmod +x VMWare...bundle` |
-| 4) Run installation file  | `sudo ./VMWare...bundle` |
+| 1) Install required dependencies  | `sudo apt install build-essential linux-headers-$(uname -r)` |
+| 2) Navigate to download location  | `cd ~/Downloads` |
+| 3) List files in Downlaods folder  | `ls` |
+| 4) Make installation file executable  | `chmod +x VMWare...bundle` |
+| 5) Run installation file  | `sudo ./VMWare...bundle` |
 <br>
-<p align="center">
- <img src="images/VMWareInstall6.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+<p align="left">
+ <img src="images/VMWareInstall6.png" alt="Image 1" width="60%" style="margin-right: 10px;"/>
+ <br>
+ <p align="left">
+ <img src="images/VMWareInstall7.png" alt="Image 1" width="60%" style="margin-right: 10px;"/>
 
 
 
