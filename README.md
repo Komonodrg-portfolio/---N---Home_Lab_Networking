@@ -70,7 +70,9 @@ Check your system specifications vs what the [official EVE-NG installation guide
 <details>
  <summary><h4>b) Hypervisor Installation (VMWare)</h4></summary>
   <br> 
-  For this lab, we will run EVE-NG as a virtual machine from within a <a href="https://chatgpt.com/share/68cb87a6-3580-800b-a816-6c42bfab1272/">hypervisor</a>.
+  For this lab, we will run EVE-NG as a virtual machine from within a <a href="https://chatgpt.com/share/68cb87a6-3580-800b-a816-6c42bfab1272/">hypervisor</a> (type 2).  Both Linux and Windows versions are free, but require <a href="https://support.broadcom.com/">signing up for a broadcom account</a>a> first:
+
+ 
 </details> 
 
 ### 1. Install EVE-NG
