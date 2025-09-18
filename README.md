@@ -82,39 +82,11 @@ Check your system specifications vs what the [official EVE-NG installation guide
 <br>
 Once the installation file downlods successfully, proceed with installation of VMWare:</br><br>
 
-**Windows:**  Navigate to where the file downloaded, and double click it to start the installer...
-
-**Linux:** A few extra steps are needed prior in order to get this installation completed:
-<br>
-Open up Terminal to install VMWare:
-<br>
-
-| Step    | Command |
-|---------|---------|
-| 1) Navigate to download location  | `cd ~/Downloads` |
-| 2) List files in Downlaods folder  | `ls` |
-| 3) Make installation file executable  | `chmod +x VMWare...bundle` |
-| 4) Run installation file  | `sudo ./VMWare...bundle` |
-<br>
-<p align="center">
- <img src="images/VMWareInstall6.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
-
- 
 </details> 
 <details>
  <summary><h4>c) Install VMWare Workstation</h4></summary>
   <br> 
-  For this lab, we will run EVE-NG as a virtual machine from within a <a href="https://chatgpt.com/share/68cb87a6-3580-800b-a816-6c42bfab1272/">hypervisor</a> (type 2).  Both Linux and Windows versions are free, but require <a href="https://support.broadcom.com/">signing up for a broadcom account</a> first:<br>
-  <br>
-<p align="center">
- <img src="images/VMWareInstall1.png" alt="Image 1" width="43%" style="margin-right: 10px;"/>
- <img src="images/VMWareInstall2.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
- <img src="images/VMWareInstall3.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
- <img src="images/VMWareInstall4.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
- <img src="images/VMWareInstall5.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
-</p>  
-<br>
-Once the installation file downlods successfully, proceed with installation of VMWare:</br><br>
+  
 
 **Windows:**  Navigate to where the file downloaded, and double click it to start the installer...
 
