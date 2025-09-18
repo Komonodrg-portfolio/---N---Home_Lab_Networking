@@ -65,7 +65,8 @@ Check your system specifications vs what the [official EVE-NG installation guide
  <p align="center">
   <img src="images/SystemReqs.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
 
-</details><<details>
+</details>
+<details>
  <summary><h4>b) Hypervisor Installation (VMWare)</h4></summary>
   <br> 
   Hypervisor Installation
