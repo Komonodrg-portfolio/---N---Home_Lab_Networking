@@ -97,7 +97,7 @@ Open up **Terminal** to install VMWare:
 
 | Step    | Command |
 |---------|---------|
-| 1) Install required dependencies  | `sudo apt install build-essential linux-headers-$(uname -r)` |
+| 1) Navigate to EVE-NG Download page and download both: <br> a) EVE-NG CE.iso<br> b)Client Side Toools (Windows/Linux) | `sudo apt install build-essential linux-headers-$(uname -r)` |
 | 2) Navigate to download location  | `cd ~/Downloads` |
 | 3) List files in Downlaods folder  | `ls` |
 | 4) Make installation file executable  | `chmod +x VMWare...bundle` |
@@ -135,7 +135,7 @@ Where running it on Windows or Linux (Mint), the setup process is pretty much th
 | Step    | Command |
 |---------|---------|
 | 1) Install required dependencies  | `sudo apt install build-essential linux-headers-$(uname -r)` |
-| 2) Navigate to download location  | <img src="images/VMWareInstall8.png" alt="Image 1" width="45%" style="margin-right: 10px;"/> |
+| 2) Navigate to download location  | <img src="images/VMWareInstall8.png" alt="Image 1" width="45%" style="margin-Center: 10px;"/> |
 | 3) List files in Downlaods folder  | `ls` |
 | 4) Make installation file executable  | `chmod +x VMWare...bundle` |
 | 5) Run installation file  | `sudo ./VMWare...bundle` |
