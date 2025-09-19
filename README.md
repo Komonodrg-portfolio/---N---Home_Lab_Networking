@@ -132,7 +132,13 @@ Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php
 <br>
 Where running it on Windows or Linux (Mint), the setup process is pretty much the same:
 <br> 
-
+| Step    | Command |
+|---------|---------|
+| 1) Install required dependencies  | `sudo apt install build-essential linux-headers-$(uname -r)` |
+| 2) Navigate to download location  | <img src="images/VMWareInstall8.png" alt="Image 1" width="45%" style="margin-right: 10px;"/> |
+| 3) List files in Downlaods folder  | `ls` |
+| 4) Make installation file executable  | `chmod +x VMWare...bundle` |
+| 5) Run installation file  | `sudo ./VMWare...bundle` |
 ### 2. Upload Images
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
 
