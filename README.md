@@ -140,7 +140,7 @@ b) Client Side Toools (Windows/Linux)
  
 2) In VMWare, click `file` >  `New Virtual Machine...`  >
 
-<img src="images/EVENGVM8.png" width="400"/> | <img src="images/EVENGVM9.png" width="400"/>
+<img src="images/EVENGVM3.png" width="400"/> | <img src="images/EVENGVM4.png" width="400"/>
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
 
