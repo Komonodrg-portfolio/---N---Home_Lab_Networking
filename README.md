@@ -127,8 +127,11 @@ Open up **Terminal** to install VMWare:
 </details> 
 
 
-### 1. Install EVE-NG
-Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php/documentation/) or run it in VMware/VirtualBox on Linux Mint.
+### 1. Install EVE-NG VM in VMWare
+Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php/documentation/) to learn bare-metal setup or continue on to see how to set it up in VMware.<br>
+<br>
+Where running it on Windows or Linux (Mint), the setup process is pretty much the same:
+<br> 
 
 ### 2. Upload Images
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
