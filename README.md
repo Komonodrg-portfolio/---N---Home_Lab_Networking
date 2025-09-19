@@ -132,14 +132,16 @@ Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php
 <br>
 Where running it on Windows or Linux (Mint), the setup process is pretty much the same:
 <br> 
-| Step    | Command |
-|---------|---------|
-| 1) Navigate to EVE-NG Download page and download both: <br> a) EVE-NG CE.iso<br> b) Client Side Toools (Windows/Linux)  | <img src="images/EVENGVM1.png" width="200"/> <img src="images/EVENGVM1.png" width="200"/> | 
-| 2) Navigate to download location  | <img src="images/VMWareInstall8.png" alt="Image 1" width="45%" style="margin-Center: 10px;"/> |
-| 3) List files in Downlaods folder  | `ls` |
-| 4) Make installation file executable  | `chmod +x VMWare...bundle` |
-| 5) Run installation file  | `sudo ./VMWare...bundle` |
-### 2. Upload Images
+1) Navigate to EVE-NG Download page and download both: <br> 
+a) EVE-NG CE.iso<br> 
+b) Client Side Toools (Windows/Linux)
+
+ <img src="images/EVENGVM1.png" width="400"/> | <img src="images/EVENGVM1.png" width="400"/> <br> 
+ 
+2) In VMWare, click `file` >  `New Virtual Machine...`  >
+
+<img src="images/EVENGVM8.png" width="400"/> | <img src="images/EVENGVM9.png" width="400"/>
+
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
 
 ### 3. Import or Recreate the Lab
