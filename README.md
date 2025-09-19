@@ -134,7 +134,7 @@ Where running it on Windows or Linux (Mint), the setup process is pretty much th
 <br> 
 | Step    | Command |
 |---------|---------|
-| 1) Navigate to EVE-NG Download page and download both: <br> a) EVE-NG CE.iso<br> b) Client Side Toools (Windows/Linux)  | <img src="images/EVENGVM1.png" alt="Image 1" width="50%" style="margin-Center: 10px;"/><img src="images/EVENGVM2.png" alt="Image 1" width="50%" style="margin-Center: 10px;"/> |
+| 1) Navigate to EVE-NG Download page and download both: <br> a) EVE-NG CE.iso<br> b) Client Side Toools (Windows/Linux)  | <img src="images/EVENGVM1.png" alt="Image 1" width="50%" style="margin-Center: 10px;"/><br><img src="images/EVENGVM2.png" alt="Image 1" width="50%" style="margin-Center: 10px;"/> |
 | 2) Navigate to download location  | <img src="images/VMWareInstall8.png" alt="Image 1" width="45%" style="margin-Center: 10px;"/> |
 | 3) List files in Downlaods folder  | `ls` |
 | 4) Make installation file executable  | `chmod +x VMWare...bundle` |
