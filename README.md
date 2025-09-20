@@ -156,7 +156,14 @@ It will reboot twice during installation, just be patient and you will eventuall
 <img src="images/EVENGVM11.png" width="400"/> <img src="images/EVENGVM12.png" width="400"/> 
 
 
-Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
+Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> <br>
+
+To update EVE-NG VM, after logging in, enter command:
+
+```bash
+apt update & apt upgrade -y
+```
+
 
 <img src="images/EVENGVM15.png" width="400"/> <img src="images/EVENGVM16.png" width="400"/><br>
 
@@ -168,9 +175,6 @@ Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome
   <img src="images/EVENGVM14.png" width="400" />
 
 ### 2. Import Cisco Images into EVE-NG
-
-
-
 
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
