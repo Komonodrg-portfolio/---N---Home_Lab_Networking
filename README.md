@@ -138,7 +138,7 @@ b) Client Side Tools (Windows/Linux)<br>
 <br> 
  <img src="images/EVENGVM1.png" width="400"/> | <img src="images/EVENGVM1.png" width="400"/> <br> 
  
-3) In VMWare, click `file` >  `New Virtual Machine...`  >
+2) In VMWare, click `file` >  `New Virtual Machine...`  >
 
 <img src="images/EVENGVM3.png" width="400"/> | <img src="images/EVENGVM4.png" width="400"/> <br> 
 
@@ -147,20 +147,28 @@ b) Client Side Tools (Windows/Linux)<br>
 <img src="images/EVENGVM5.png" width="400"/> | <img src="images/EVENGVM6.png" width="400"/>
 <img src="images/EVENGVM7.png" width="400"/> | <img src="images/EVENGVM8.png" width="400"/><br>
 <img src="images/EVENGVM9.png" width="400"/> | <img src="images/EVENGVM10.png" width="400"/><br>
+<br> 
 
----
-
-Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
+3) Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
 
-<img src="images/EVENGVM11.png" width="400"/> | <img src="images/EVENGVM12.png" width="400"/><br>
+<img src="images/EVENGVM14.png" width="400"/> | <img src="images/EVENGVM15.png" width="400"/><br>
+
+Click in VM window, login and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
+
+<img src="images/EVENGVM9.png" width="400"/> | <img src="images/EVENGVM10.png" width="400"/><br>
+
+
+
+
 
 Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
 <p float="center">
   <img src="images/EVENGVM13.png" width="400" />
   <img src="images/EVENGVM14.png" width="400" />
+
 
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
