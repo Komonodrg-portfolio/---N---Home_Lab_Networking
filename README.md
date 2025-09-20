@@ -97,7 +97,7 @@ Open up **Terminal** to install VMWare:
 
 | Step    | Command |
 |---------|---------|
-| | 1) Navigate to EVE-NG Download page and download both: <br> a) EVE-NG CE.iso<br> b) Client Side Toools (Windows/Linux)  | `sudo apt install build-essential linux-headers-$(uname -r)` || `sudo apt install build-essential linux-headers-$(uname -r)` |
+| 1) Install required dependencies | `sudo apt install build-essential linux-headers-$(uname -r)` |
 | 2) Navigate to download location  | `cd ~/Downloads` |
 | 3) List files in Downlaods folder  | `ls` |
 | 4) Make installation file executable  | `chmod +x VMWare...bundle` |
@@ -133,32 +133,32 @@ Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php
 Where running it on Windows or Linux (Mint), the setup process is pretty much the same:
 <br> 
 1) Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
-a) EVE-NG CE.iso<br> 
-b) Client Side Tools (Windows/Linux)<br>
+**a) EVE-NG CE.iso**<br> 
+**b) Client Side Tools** (Windows/Linux)<br>
 <br> 
- <img src="images/EVENGVM1.png" width="400"/> | <img src="images/EVENGVM1.png" width="400"/>
+ <img src="images/EVENGVM1.png" width="400"/>  <img src="images/EVENGVM1.png" width="400"/>
  
-2) In VMWare, click `file` >  `New Virtual Machine...`  >
+2) In VMWare, click `file` >  `New Virtual Machine...`  > ...
 
-<img src="images/EVENGVM3.png" width="400"/> | <img src="images/EVENGVM4.png" width="400"/> <br> 
+<img src="images/EVENGVM3.png" width="400"/>  <img src="images/EVENGVM4.png" width="400"/> <br> 
 
 ... Click `Browse`, navigate to where the EVE-NG.iso file is downloaded and select it before proceeding to `Next`.<br> 
 
-<img src="images/EVENGVM5.png" width="400"/> | <img src="images/EVENGVM6.png" width="400"/>
-<img src="images/EVENGVM7.png" width="400"/> | <img src="images/EVENGVM8.png" width="400"/><br>
-<img src="images/EVENGVM9.png" width="400"/> | <img src="images/EVENGVM10.png" width="400"/><br>
+<img src="images/EVENGVM5.png" width="400"/>  <img src="images/EVENGVM6.png" width="400"/>
+<img src="images/EVENGVM7.png" width="400"/>  <img src="images/EVENGVM8.png" width="400"/><br>
+<img src="images/EVENGVM9.png" width="400"/>  <img src="images/EVENGVM10.png" width="400"/><br>
 <br> 
 
 3) Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
-<img src="images/EVENGVM11.png" width="400"/> | <img src="images/EVENGVM12.png" width="400"/> 
+<img src="images/EVENGVM11.png" width="400"/> <img src="images/EVENGVM12.png" width="400"/> 
 
 
 Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
 
-<img src="images/EVENGVM15.png" width="400"/> | <img src="images/EVENGVM16.png" width="400"/><br>
+<img src="images/EVENGVM15.png" width="400"/> <img src="images/EVENGVM16.png" width="400"/><br>
 
 
 
