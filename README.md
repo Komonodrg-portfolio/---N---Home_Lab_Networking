@@ -153,6 +153,7 @@ b) Client Side Tools (Windows/Linux)<br>
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
+<img src="images/EVENGVM11.png" width="400" />
 <img src="images/EVENGVM12.png" width="400"/> 
 
 Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
