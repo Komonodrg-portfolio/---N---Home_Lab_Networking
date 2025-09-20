@@ -130,9 +130,10 @@ Open up **Terminal** to install VMWare:
 ### 1. Install EVE-NG VM in VMWare
 Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php/documentation/) to learn bare-metal setup or continue on to see how to set it up in VMware.<br>
 <br>
-Where running it on Windows or Linux (Mint), the setup process is pretty much the same:
+Whether you are running it on Windows or Linux (Mint), the setup process is pretty much the same:
 <br> 
 a) Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
+<br> 
 **a) EVE-NG CE.iso**<br> 
 **b) Client Side Tools** (Windows/Linux)<br>
 <br> 
@@ -168,13 +169,17 @@ apt update & apt upgrade -y
 
 d) Install Client Tools<br>
 
-**Windows:** Navigate to the folder where the Windows Client Tools.exe is located, double click it to run it:
+**Windows:** Navigate to the folder where the Windows Client Tools.exe is located, double click it to run it (click `Next` through each component install):
 
 <img src="images/ClientWIN1.png" width="400"/> <img src="images/ClientWIN2.png" width="400"/><br>
 
+**Linux:** The [instructions](https://github.com/SmartFinn/eve-ng-integration) for linux (mint/debian) involve a few more steps:
 
 
-Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
+
+
+
+e) Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
 <p float="center">
   <img src="images/EVENGVM13.png" width="400" />
   <img src="images/EVENGVM14.png" width="400" />
