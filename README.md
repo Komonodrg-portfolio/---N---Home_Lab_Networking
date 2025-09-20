@@ -153,14 +153,11 @@ b) Client Side Tools (Windows/Linux)<br>
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
+<img src="images/EVENGVM12.png" width="400"/> 
 
-<img src="images/EVENGVM13.png" width="400"/> | <img src="images/EVENGVM14.png" width="400"/><br>
-
-Click in VM window, login and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
+Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
 
 <img src="images/EVENGVM15.png" width="400"/> | <img src="images/EVENGVM16.png" width="400"/><br>
-
-
 
 
 
@@ -168,6 +165,8 @@ Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome
 <p float="center">
   <img src="images/EVENGVM13.png" width="400" />
   <img src="images/EVENGVM14.png" width="400" />
+
+### 2. Import  Cisco Images in EVE-NG
 
 
 
