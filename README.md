@@ -158,7 +158,7 @@ It will reboot twice during installation, just be patient and you will eventuall
 
 Click in VM window, login and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
 
-<img src="images/EVENGVM9.png" width="400"/> | <img src="images/EVENGVM10.png" width="400"/><br>
+<img src="images/EVENGVM15.png" width="400"/> | <img src="images/EVENGVM16.png" width="400"/><br>
 
 
 
