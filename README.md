@@ -158,8 +158,9 @@ It will reboot twice during installation, just be patient and you will eventuall
 <img src="images/EVENGVM11.png" width="400"/> | <img src="images/EVENGVM12.png" width="400"/><br>
 
 Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
+<p float="center">
+  <img src="images/EVENGVM13.png" width="500" />
 
-<img src="images/EVENGVM13.png" width="400"/>
 
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
