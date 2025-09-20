@@ -201,7 +201,7 @@ In order to be able to use devices (routers/switches) in your lab topologies, th
 
 <img src="images/WINSCP1.png" width="400"/> <img src="images/WINSCP2.png" width="400"/><br>
 
-...Select `Typical Installation` > `Commander Style` > `Install` > `Finish`<br>
+During Setup...Select `Typical Installation` > `Commander Style` > `Install` > `Finish`<br>
 Enter in the login information for EVE-NG to connect to your VM from WinSCP, which will allow to transfer files to it.<br>
 
 **Linux:** Unlike Windows, Linux Mint's default file explorer has the SFTP capability to allow direct communication with VM:<br>
