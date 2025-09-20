@@ -132,13 +132,13 @@ Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php
 <br>
 Where running it on Windows or Linux (Mint), the setup process is pretty much the same:
 <br> 
-1) Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
+a) Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
 **a) EVE-NG CE.iso**<br> 
 **b) Client Side Tools** (Windows/Linux)<br>
 <br> 
  <img src="images/EVENGVM1.png" width="400"/>  <img src="images/EVENGVM1.png" width="400"/>
  
-2) In VMWare, click `file` >  `New Virtual Machine...`  > ...
+b) In VMWare, click `file` >  `New Virtual Machine...`  > ...
 
 <img src="images/EVENGVM3.png" width="400"/>  <img src="images/EVENGVM4.png" width="400"/> <br> 
 
@@ -149,7 +149,7 @@ Where running it on Windows or Linux (Mint), the setup process is pretty much th
 <img src="images/EVENGVM9.png" width="400"/>  <img src="images/EVENGVM10.png" width="400"/><br>
 <br> 
 
-3) Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
+c) Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
@@ -164,8 +164,13 @@ To update EVE-NG VM, after logging in, enter command:
 apt update & apt upgrade -y
 ```
 
-
 <img src="images/EVENGVM15.png" width="400"/> <img src="images/EVENGVM16.png" width="400"/><br>
+
+d) Install Client Tools<br>
+
+**Windows:** Navigate to the folder where the Windows Client Tools.exe is located, double click it to run it:
+
+<img src="images/ClientWIN1.png" width="400"/> <img src="images/ClientWIN2.png" width="400"/><br>
 
 
 
