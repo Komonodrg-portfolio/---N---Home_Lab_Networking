@@ -175,6 +175,7 @@ d) Install Client Tools<br>
 
 **Linux:** The [instructions](https://github.com/SmartFinn/eve-ng-integration) for linux (mint/debian) involve a few more steps:
 
+<img src="images/ClientLINUX1.png" width="400"/> <img src="images/ClientLINUX2.png" width="400"/><br>
 
 
 
