@@ -175,7 +175,7 @@ d) Install Client Tools<br>
 
 **Linux:** The [instructions](https://github.com/SmartFinn/eve-ng-integration) for linux (mint/debian) involve a few more steps:
 
-<img src="images/ClientLINUX1.png" width="400"/> <img src="images/ClientLINUX2.png" width="400"/><br>
+<img src="images/ClientLINUX1.png" width="400"/> <img src="images/ClientLINUX12.png" width="400"/><br>
 
 
 
@@ -187,7 +187,13 @@ e) Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chr
 
 ### 2. Import Cisco Images into EVE-NG
 
+In order to be able to use devices (routers/switches) in your lab topologies, their image files must first be added to EVE-NG:
 
+**Windows:** Download and install [WinSCP]([https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)
+
+<img src="images/WINSCP1.png" width="400"/> <img src="images/WINSCP2.png" width="400"/><br>
+
+...Select `Typical Installation` > `Commander Style` > `Install`
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
 
 ### 3. Import or Recreate the Lab
