@@ -136,7 +136,7 @@ Where running it on Windows or Linux (Mint), the setup process is pretty much th
 a) EVE-NG CE.iso<br> 
 b) Client Side Tools (Windows/Linux)<br>
 <br> 
- <img src="images/EVENGVM1.png" width="400"/> | <img src="images/EVENGVM1.png" width="400"/> <br> 
+ <img src="images/EVENGVM1.png" width="400"/> | <img src="images/EVENGVM1.png" width="400"/>
  
 2) In VMWare, click `file` >  `New Virtual Machine...`  >
 
@@ -153,8 +153,8 @@ b) Client Side Tools (Windows/Linux)<br>
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
-<img src="images/EVENGVM11.png" width="400" />
-<img src="images/EVENGVM12.png" width="400"/> 
+<img src="images/EVENGVM11.png" width="400"/> | <img src="images/EVENGVM12.png" width="400"/> 
+
 
 Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> 
 
@@ -167,7 +167,9 @@ Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome
   <img src="images/EVENGVM13.png" width="400" />
   <img src="images/EVENGVM14.png" width="400" />
 
-### 2. Import  Cisco Images in EVE-NG
+### 2. Import Cisco Images into EVE-NG
+
+
 
 
 
