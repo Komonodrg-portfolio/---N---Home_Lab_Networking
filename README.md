@@ -150,7 +150,16 @@ b) Client Side Tools (Windows/Linux)<br>
 
 ---
 
-Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few questions per setup (select default selections through menus until installation completes:
+Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
+
+It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
+
+
+<img src="images/EVENGVM11.png" width="400"/> | <img src="images/EVENGVM12.png" width="400"/><br>
+
+Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
+
+<img src="images/EVENGVM13.png" width="400"/>
 
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
