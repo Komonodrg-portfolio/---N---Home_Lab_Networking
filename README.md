@@ -175,6 +175,14 @@ d) Install Client Tools<br>
 
 **Linux:** The [instructions](https://github.com/SmartFinn/eve-ng-integration) for linux (mint/debian) involve a few more steps:
 
+From **Terminal** enter:
+
+```
+sudo add-apt-repository ppa:smartfinn/eve-ng-integration
+sudo apt-get update
+sudo apt-get install eve-ng-integration
+```
+
 <img src="images/ClientLINUX1.png" width="400"/> <img src="images/ClientLINUX12.png" width="400"/><br>
 
 
@@ -193,7 +201,11 @@ In order to be able to use devices (routers/switches) in your lab topologies, th
 
 <img src="images/WINSCP1.png" width="400"/> <img src="images/WINSCP2.png" width="400"/><br>
 
-...Select `Typical Installation` > `Commander Style` > `Install`
+...Select `Typical Installation` > `Commander Style` > `Install` > `Finish`<br>
+Enter in the login information for EVE-NG to connect to your VM from WinSCP.<br>
+
+**Linux:** Unlike Windows, Linux Mint's default file explorer has the SFTP capability to allow direct communication with VM:<br>
+
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
 
 ### 3. Import or Recreate the Lab
