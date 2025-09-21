@@ -147,7 +147,8 @@ b) In VMWare, click `file` >  `New Virtual Machine...`  > ...
 
 <img src="images/EVENGVM5.png" width="400"/>  <img src="images/EVENGVM6.png" width="400"/>
 <img src="images/EVENGVM7.png" width="400"/>  <img src="images/EVENGVM8.png" width="400"/><br>
-<img src="images/EVENGVM9.png" width="400"/>  <img src="images/EVENGVM10.png" width="400"/><br>
+<img src="images/EVENGVM9.png" width="400"/>  <img src="images/EVENGVM9a.png" width="400"/><br>
+<img src="images/EVENGVM10.png" width="400"/><br>
 <br> 
 
 c) Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
