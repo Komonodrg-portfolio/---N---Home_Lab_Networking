@@ -205,7 +205,14 @@ In order to be able to use devices (routers/switches) in your lab topologies, th
 During Setup...Select `Typical Installation` > `Commander Style` > `Install` > `Finish`<br>
 Enter in the login information for EVE-NG to connect to your VM from WinSCP, which will allow to transfer files to it.<br>
 
-**Linux:** Unlike Windows, Linux Mint's default file explorer has the SFTP capability to allow direct communication with VM:<br>
+**Linux:** Unlike Windows, Linux Mint's default file explorer has the SFTP capability to allow direct communication with EVE-NG by clicking on navigation bar and typing in:<br>
+
+```
+sftp://<yourIPAddress>
+```
+
+<img src="images/FileTransfer1.png" width="400"/> <img src="images/FileTransfer2.png" width="400"/><br>
+
 
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
