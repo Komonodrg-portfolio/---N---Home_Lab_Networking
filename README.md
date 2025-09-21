@@ -196,7 +196,7 @@ e) Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chr
 
 ### 2. Import Cisco Images into EVE-NG
 
-In order to be able to use devices (routers/switches) in your lab topologies, their image files must first be added to EVE-NG:
+a) In order to be able to use devices (routers/switches) in your lab topologies, their image files must first be added to EVE-NG:
 
 **Windows:** Download and install [WinSCP](https://winscp.net/eng/download.php)
 
@@ -212,6 +212,29 @@ sftp://<yourIPAddress>
 ```
 
 <img src="images/FileTransfer1.png" width="400"/> <img src="images/FileTransfer2.png" width="400"/><br>
+
+In order to allow for two pane look, much like WINSCP or Filezilla (provides ease for drag and drop), from `File Explorer` > click `View` > select `Extra Pane` -OR- press the key  `F3`:
+
+<img src="images/FileTransfer3.png" width="400"/> 
+
+... with access to EVE-NG file system, we are now ready to upload Cisco images.  You can find some practice images in the `ios` folder in this repo.
+
+Per [instructions from official documentation](https://www.eve-ng.net/index.php/documentation/howtos/howto-add-cisco-vios-from-virl/):
+
+b) To upload any image (router, switch, firewall, windows, linux, etc) you must navigate to location in EVE-NG file system to upload image files into created folders, each with a particular [folder name prefix](https://www.eve-ng.net/index.php/documentation/qemu-image-namings/).  For this lab, we will focus only the ones specific for our needs for CCNA/CCNP study and lab practice:
+
+<img src="images/FolderNaming.png" width="400"/>
+
+c) Upload Cisco Router (L3) Image:<br>
+<br>
+From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create a folder, naming it "`vios-<YourFileName>`", then copy and paste image file into created folder from download location:
+
+
+<img src="images/FileTransfer4.png" width="400"/> <img src="images/FileTransfer2.png" width="400"/><br>
+
+
+
+
 
 
 
