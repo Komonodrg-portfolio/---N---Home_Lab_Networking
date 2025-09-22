@@ -237,9 +237,15 @@ We must now fix permissons to allow EVE-NG to accept and properly run the images
 | Step    | Command |
 |---------|---------|
 | 1) Open Terminal and ssh login into EVE-NG | `ssh root@<EVE-NG VM IP address>` |
-| 2) Navigate to qemu/ folder location | (see pic for linux cli navigation commands) |
+| 2) Navigate to `qemu/` folder location  | (see pic for linux cli navigation commands) |
 
 <img src="images/Root1.png" width="400"/> <img src="images/Root2.png" width="400"/><br>
+
+|---------|---------|
+| 3) Change name of .qcow2 files in both folders to `virtioa.qcow2` |  `mv vios-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow` <br>  |
+| 4) Fix file permissions  | `/opt/unetlab/wrappers/unl_wrapper -a fixpermissions` |
+
+<img src="images/Root3.png" width="800"/>
 
 d) Upload Cisco IOL (IOS on Linux) Images:
 
