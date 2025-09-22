@@ -197,7 +197,7 @@ sudo apt install docker.io
 
 <img src="images/ClientLINUX1.png" width="400"/> <img src="images/ClientLINUX12.png" width="400"/><br>
 
-<img src="images/Dependancies1.png" width="400"/> 
+<img src="images/Dependencies1.png" width="400"/> 
 
 
 
