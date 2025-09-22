@@ -225,12 +225,14 @@ b) To upload any image (router, switch, firewall, windows, linux, etc) you must 
 
  <img src="images/FolderNaming.png" width="800"/> 
 
-c) Upload Cisco Router (L3) Image:<br>
+c) Upload Cisco Router (L3 & L2) Images:<br>
 <br>
 
-From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create a folder, naming it "`vios-<YourFileName>`", then copy and paste image file into created folder from download location:
+From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create 2 folders, naming it "`vios-<YourFileName>`" & "`vios-<YourFileName>`", then copy and paste image .qcow2 files into created folders from download location:
 
 <img src="images/FileTransfer4.png" width="400"/> <img src="images/FileTransfer5.png" width="400"/><br>
+
+We must now fix permissons to allow EVE-NG to accept and properly run the images.  Though you can manage and enter the command from EVE-NG VM window in VMWare, lets do it from our **Terminal**:
 
 
 
