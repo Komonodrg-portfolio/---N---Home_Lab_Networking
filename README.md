@@ -168,14 +168,14 @@ It will reboot twice during installation, just be patient and you will eventuall
  
  Don't be afraid to lean on the ease and benefits AI provides, as referring to the documentation can make it hard to find a solution to specific issues you may run into.  After applying recommended fixes:<br>
  <br>
-  <img src="images/EVENGVMFix2.png" width="400"/> <img src="images/EVENGVMFix3.png" width="400"/> 
+  <img src="images/EVENGVMFix2.png" width="400"/> <img src="images/EVENGVMFix3.png" width="400"/>
+
+ Later in this guide, we will be adding devices to topologies, like this.  Without the fix, I was not able to access the devices for configuration.  Now it presents the option to telnet to the device:<br>
+ <br>
+ <img src="images/EVENGVMFix4.png" width="400"/>
+ 
  </em><br>
 <br>
-
-
-
-<p float="center">
-  <img src="images/Kenya/SceneryMountainsTea.png" width="200" />
 
 </details>
 
