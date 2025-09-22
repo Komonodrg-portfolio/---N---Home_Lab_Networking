@@ -161,23 +161,18 @@ It will reboot twice during installation, just be patient and you will eventuall
  <summary><h3><em><b>🛠️  "Troubleshooting..."</b></em></h3></summary>
  <br> 
 <em>From within VM Window, there is an error message that neither virualization platforms "Intel VT-x or AMD V is found", as the option when creating the VM was greyed out.  Even after enabling Virtualization in the BIOS, still had the same error:<br>
- 
+<br>
  <img src="images/EVENGVMFix1.png" width="400"/> 
  
- Doing a quick ask of CHATGPT provided steps to  assist in resolving the issue</em><br>
+ Doing a quick ask of [CHATGPT](https://chatgpt.com/share/68d1a482-7b64-8000-a8bc-3f4b402d31bf) provided steps to  assist in resolving the issue.<br>
+ 
+ Don't be afraid to lean on the ease and benefits AI provides, as referring to the documentation can make it hard to find a solution to specific issues you may run into.  After applying recommended fixes:<br>
+ <br>
+  <img src="images/EVENGVMFix2.png" width="400"/> <img src="images/EVENGVMFix3.png" width="400"/> 
+ </em><br>
 <br>
-<b>My Vision:</b><br>
-    
-- <b>To partner or create a foundation that will provide repurposed/decommissioned cellphones / laptops to individuals in remote area</b>
-- <b>Provide scholarships to cover the costs for IT Certifications to individuals showing deep aptitude, skill, and readiness</b><br>
 
-<em>Enjoy these pictures from the trip.
 
-Colleagues,Onward.<br></em>
-
-  
-
-![Alt text](images/Kenya/ChurchKids.png)
 
 <p float="center">
   <img src="images/Kenya/SceneryMountainsTea.png" width="200" />
