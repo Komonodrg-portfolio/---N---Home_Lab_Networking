@@ -234,7 +234,12 @@ From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons
 
 We must now fix permissons to allow EVE-NG to accept and properly run the images.  Though you can manage and enter the command from EVE-NG VM window in VMWare, lets do it from our **Terminal**:
 
+| Step    | Command |
+|---------|---------|
+| 1) Open Terminal and ssh login into EVE-NG | `ssh root@<EVE-NG VM IP address>` |
+| 2) Navigate to qemu/ folder location | (see pic for linux cli navigation commands) |
 
+<img src="images/Root1.png" width="400"/> <img src="images/Root2.png" width="400"/><br>
 
 d) Upload Cisco IOL (IOS on Linux) Images:
 
@@ -247,20 +252,6 @@ From EVE-NG cli (command line interface), enter command:
 ```
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
 ```
-
-
-d) Upload Cisco Router (L3) Image:<br>
-<br>
-
-From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create a folder, naming it "`vios-<YourFileName>`", then copy and paste image file into created folder from download location:
-
-
-<img src="images/FileTransfer4.png" width="400"/> <img src="images/FileTransfer5.png" width="400"/><br>
-
-
-
-
-
 
 
 Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
