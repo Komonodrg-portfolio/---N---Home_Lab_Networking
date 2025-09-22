@@ -297,7 +297,7 @@ Login to EVE-NG via Web GUI and create a `new lab` named "Test":<br>
 |---------|---------|
 | `admin` |  `eve`  |
 <br>
-<img src="images/Test1.png" width="400"/> <img src="images/Test2.png" width="400"/><br>
+<img src="images/Test1.png" width="400"/><img src="images/Test2.png" width="400"/><br>
 <br>
 Hover over the `+` sign > select `Add New Object` > select `Node`... you'll see the options for Cisco Devices are selectable.  Select `Cisco vIOS Router` and press `Enter`.  When router appears on lab, right-click on it > select `Start`, then double click on router to open up device console (select `Open Link` on the popup message):<br>
 <br>
@@ -316,19 +316,3 @@ From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons
 
 From EVE-NG cli (command line interface), enter command:
 
-```
-/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-```
-
-
-Ensure you have the appropriate Cisco and pfSense images loaded into EVE-NG. Add them via the `/opt/unetlab/addons/qemu` path.
-
-### 3. Import or Recreate the Lab
-You can:
-- Import the provided `.unl` lab file (if included), or
-- Recreate the topology manually in EVE-NG using the included topology diagram and configs.
-
-### 4. Connect EVE-NG to Internet
-To simulate external access (e.g., software updates on Ubuntu), configure a cloud interface to your host system’s bridge or NAT.
-
----
