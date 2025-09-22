@@ -217,7 +217,7 @@ In order to allow for two pane look, much like WINSCP or Filezilla (provides eas
 
 <img src="images/FileTransfer3.png" width="400"/> 
 
-... with access to EVE-NG file system, we are now ready to upload Cisco images.  You can find some practice images in the `ios` folder in this repo.
+... with access to EVE-NG file system, we are now ready to upload Cisco images.  You can find some practice images in the `ios/` folder in this repo.
 
 Per [instructions from official documentation](https://www.eve-ng.net/index.php/documentation/howtos/howto-add-cisco-vios-from-virl/):
 
@@ -225,7 +225,16 @@ b) To upload any image (router, switch, firewall, windows, linux, etc) you must 
 
  <img src="images/FolderNaming.png" width="800"/> 
 
-c) Upload Cisco IOL (IOS on Linux) Images:
+c) Upload Cisco Router (L3) Image:<br>
+<br>
+
+From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create a folder, naming it "`vios-<YourFileName>`", then copy and paste image file into created folder from download location:
+
+<img src="images/FileTransfer4.png" width="400"/> <img src="images/FileTransfer5.png" width="400"/><br>
+
+
+
+d) Upload Cisco IOL (IOS on Linux) Images:
 
 From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/iol/bin` path, then copy and paste image files into this location:
 
