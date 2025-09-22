@@ -158,11 +158,11 @@ It will reboot twice during installation, just be patient and you will eventuall
 <img src="images/EVENGVM11.png" width="400"/> <img src="images/EVENGVM12.png" width="400"/> 
 
 <details>
- <summary><h3><em><b>🛠️  "Troublshooting..."</b></em></h3></summary>
-  <br> 
-<em>From within VM Window, there is an error message that neither virualization platforms "Intel VT-x or AMD V is found", as the option when creating the VM was greyed out.  Even after enabling Virtualization in the BIOS, still had the same error:
+ <summary><h3><em><b>🛠️  "Troubleshooting..."</b></em></h3></summary>
+ <br> 
+<em>From within VM Window, there is an error message that neither virualization platforms "Intel VT-x or AMD V is found", as the option when creating the VM was greyed out.  Even after enabling Virtualization in the BIOS, still had the same error:<br>
  
- <img src="images/EVENGVM11.png" width="400"/> 
+ <img src="images/EVENGVMFix1.png" width="400"/> 
  
  Doing a quick ask of CHATGPT provided steps to  assist in resolving the issue</em><br>
 <br>
