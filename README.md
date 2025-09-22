@@ -223,10 +223,24 @@ Per [instructions from official documentation](https://www.eve-ng.net/index.php/
 
 b) To upload any image (router, switch, firewall, windows, linux, etc) you must navigate to location in EVE-NG file system to upload image files into created folders, each with a particular [folder name prefix](https://www.eve-ng.net/index.php/documentation/qemu-image-namings/).  For this lab, we will focus only the ones specific for our needs for CCNA/CCNP study and lab practice:
 
-![Alt text](images/FolderNaming.png)
+ <img src="images/FolderNaming.png" width="800"/> 
 
-c) Upload Cisco Router (L3) Image:<br>
+c) Upload Cisco IOL (IOS on Linux) Images:
+
+From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/iol/bin` path, then copy and paste image files into this location:
+
+<img src="images/FileTransfer6.png" width="400"/> <img src="images/FileTransfer7.png" width="400"/><br>
+
+From EVE-NG cli (command line interface), enter command:
+
+```
+/opt/unetlab/wrappers/unl_wrapper -a fixpermissions
+```
+
+
+d) Upload Cisco Router (L3) Image:<br>
 <br>
+
 From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create a folder, naming it "`vios-<YourFileName>`", then copy and paste image file into created folder from download location:
 
 
