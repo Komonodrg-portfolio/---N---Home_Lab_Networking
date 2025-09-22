@@ -179,11 +179,23 @@ d) Install Client Tools<br>
 From **Terminal** enter:
 
 ```
-sudo add-apt-repository ppa:smartfinn/eve-ng-integration
-sudo apt-get update
-sudo apt-get install eve-ng-integration
+wget -qO- https://raw.githubusercontent.com/SmartFinn/eve-ng-integration/master/install.sh | sh
 ```
 
+Next, install required dependencies:
+```
+
+# Required dependencies
+sudo apt install python3 telnet
+
+# Recommended dependencies
+sudo apt install wireshark ssh-askpass vinagre
+
+# Optional dependencies (if you need Docker)
+sudo apt install docker.io
+```
+
+<img src="images/Dependancies1.png" width="400"/> 
 <img src="images/ClientLINUX1.png" width="400"/> <img src="images/ClientLINUX12.png" width="400"/><br>
 
 
@@ -228,7 +240,7 @@ b) To upload any image (router, switch, firewall, windows, linux, etc) you must 
 c) Upload Cisco Router (L3 & L2) Images:<br>
 <br>
 
-From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create 2 folders, naming it "`vios-<YourFileName>`" & "`vios-<YourFileName>`", then copy and paste image .qcow2 files into created folders from download location:
+From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons/qemu` path and create 2 folders, naming it "`vios-<YourFileName>`" & "`viosl2-<YourFileName>`", then copy and paste image .qcow2 files into created folders from download location:
 
 <img src="images/FileTransfer4.png" width="400"/> <img src="images/FileTransfer5.png" width="400"/><br>
 
@@ -242,7 +254,7 @@ We must now fix permissons to allow EVE-NG to accept and properly run the images
 <img src="images/Root1.png" width="400"/> <img src="images/Root2.png" width="400"/><br>
 
 |---------|---------|
-| 3) Change name of .qcow2 files in both folders to `virtioa.qcow2` |  `mv vios-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow` <br>  |
+| 3) Change name of .qcow2 files in both folders to `virtioa.qcow2` |  `mv vios-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow2` <br>  |
 | 4) Fix file permissions  | `/opt/unetlab/wrappers/unl_wrapper -a fixpermissions` |
 
 <img src="images/Root3.png" width="800"/>
