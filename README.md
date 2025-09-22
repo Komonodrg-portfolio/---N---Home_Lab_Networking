@@ -157,6 +157,35 @@ It will reboot twice during installation, just be patient and you will eventuall
 
 <img src="images/EVENGVM11.png" width="400"/> <img src="images/EVENGVM12.png" width="400"/> 
 
+<details>
+ <summary><h3><em><b>🛠️  "Troublshooting..."</b></em></h3></summary>
+  <br> 
+<em>From within VM Window, there is an error message that neither virualization platforms "Intel VT-x or AMD V is found", as the option when creating the VM was greyed out.  Even after enabling Virtualization in the BIOS, still had the same error:
+ 
+ <img src="images/EVENGVM11.png" width="400"/> 
+ 
+ Doing a quick ask of CHATGPT provided steps to  assist in resolving the issue</em><br>
+<br>
+<b>My Vision:</b><br>
+    
+- <b>To partner or create a foundation that will provide repurposed/decommissioned cellphones / laptops to individuals in remote area</b>
+- <b>Provide scholarships to cover the costs for IT Certifications to individuals showing deep aptitude, skill, and readiness</b><br>
+
+<em>Enjoy these pictures from the trip.
+
+Colleagues,Onward.<br></em>
+
+  
+
+![Alt text](images/Kenya/ChurchKids.png)
+
+<p float="center">
+  <img src="images/Kenya/SceneryMountainsTea.png" width="200" />
+
+</details>
+
+
+
 
 Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> <br>
 
@@ -253,8 +282,9 @@ We must now fix permissons to allow EVE-NG to accept and properly run the images
 
 <img src="images/Root1.png" width="400"/> <img src="images/Root2.png" width="400"/><br>
 
+| Step    | Command |
 |---------|---------|
-| 3) Change name of .qcow2 files in both folders to `virtioa.qcow2` |  `mv vios-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow2` <br>  |
+| 3) Change name of .qcow2 files in both folders to `virtioa.qcow2` |  -`mv vios-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow2` <br> -`mv viosl2-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow2` |
 | 4) Fix file permissions  | `/opt/unetlab/wrappers/unl_wrapper -a fixpermissions` |
 
 <img src="images/Root3.png" width="800"/>
