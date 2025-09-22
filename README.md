@@ -158,15 +158,15 @@ It will reboot twice during installation, just be patient and you will eventuall
 <img src="images/EVENGVM11.png" width="400"/> <img src="images/EVENGVM12.png" width="400"/> 
 
 <details>
- <summary><h3><em><b>🛠️  "Troubleshooting..."</b></em></h3></summary>
+ <summary><h4><em><b>🛠️  "Troubleshooting..."</b></em></h4></summary>
  <br> 
-<em>From within VM Window, there is an error message that neither virualization platforms "Intel VT-x or AMD V is found", as the option when creating the VM was greyed out.  Even after enabling Virtualization in the BIOS, still had the same error:<br>
+<em>From within VM Window, there is an error message that neither virualization platforms "Intel VT-x or AMD V were found", as the option when creating the VM was greyed out.  Even after re-ensuring the enabling of Virtualization in the BIOS, I still had the same error:<br>
 <br>
  <img src="images/EVENGVMFix1.png" width="400"/> 
  
- Doing a quick ask of [CHATGPT](https://chatgpt.com/share/68d1a482-7b64-8000-a8bc-3f4b402d31bf) provided steps to  assist in resolving the issue.<br>
+ Doing a quick ask of [CHATGPT](https://chatgpt.com/share/68d1a482-7b64-8000-a8bc-3f4b402d31bf) provided steps to assist in resolving the issue.<br>
  
- Don't be afraid to lean on the ease and benefits AI provides, as referring to the documentation can make it hard to find a solution to specific issues you may run into.  After applying recommended fixes:<br>
+ Don't be afraid to lean on the benefits AI provides, as referring to the documentation can make it hard to find a solution to  specific issues you may run into.  After applying recommended fixes:<br>
  <br>
   <img src="images/EVENGVMFix2.png" width="400"/> <img src="images/EVENGVMFix3.png" width="400"/>
 
@@ -182,7 +182,11 @@ It will reboot twice during installation, just be patient and you will eventuall
 
 
 
-Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  `Login:root/Password:eve`<br> <br>
+Click in VM window, login (press `ENTER` to get login prompt) and update your EVE-NG VM:  <br>
+
+| Login    | Password |
+|---------|---------|
+| `root` | `eve`|
 
 To update EVE-NG VM, after logging in, enter command:
 
@@ -240,6 +244,7 @@ a) In order to be able to use devices (routers/switches) in your lab topologies,
 
 During Setup...Select `Typical Installation` > `Commander Style` > `Install` > `Finish`<br>
 Enter in the login information for EVE-NG to connect to your VM from WinSCP, which will allow to transfer files to it.<br>
+<br>
 
 **Linux:** Unlike Windows, Linux Mint's default file explorer has the SFTP capability to allow direct communication with EVE-NG by clicking on navigation bar and typing in:<br>
 
@@ -268,7 +273,7 @@ From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons
 
 <img src="images/FileTransfer4.png" width="400"/> <img src="images/FileTransfer5.png" width="400"/><br>
 
-We must now fix permissons to allow EVE-NG to accept and properly run the images.  Though you can manage and enter the command from EVE-NG VM window in VMWare, lets do it from our **Terminal**:
+We must now change the name of the file via the `mv` command and fix permissons to allow EVE-NG to accept and properly run the images.  Though we've managed  EVE-NG cli from VM window in VMWare, lets do it from our **Terminal** this time:
 
 | Step    | Command |
 |---------|---------|
@@ -283,6 +288,17 @@ We must now fix permissons to allow EVE-NG to accept and properly run the images
 | 4) Fix file permissions  | `/opt/unetlab/wrappers/unl_wrapper -a fixpermissions` |
 
 <img src="images/Root3.png" width="800"/>
+<br>
+d) Test functionality
+<br>
+Login to EVE-NG via Web GUI and create a `new lab` named "Test":
+| Login    | Password |
+|---------|---------|
+| `admin` | `eve`|
+<img src="images/Test1.png" width="400"/> <img src="images/Test2.png" width="400"/>
+
+
+
 
 d) Upload Cisco IOL (IOS on Linux) Images:
 
