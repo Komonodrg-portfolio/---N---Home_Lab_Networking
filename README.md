@@ -289,17 +289,19 @@ We must now change the name of the file via the `mv` command and fix permissons 
 
 <img src="images/Root3.png" width="800"/>
 <br>
-d) Test functionality
+d) Test functionality<br>
 <br>
 Login to EVE-NG via Web GUI and create a `new lab` named "Test":<br>
-
-| Login   | Password|
+<br>
+| Login    | Password |
 |---------|---------|
-| `admin` |  `eve`  |
+| admin | eve
+
+
 <br>
 <img src="images/Test1.png" width="400"/><img src="images/Test2.png" width="400"/><br>
 <br>
-Hover over the `+` sign > select `Add New Object` > select `Node`... you'll see the options for Cisco Devices are selectable.  Select `Cisco vIOS Router` and press `Enter`.  When router appears on lab, right-click on it > select `Start`, then double click on router to open up device console (select `Open Link` on the popup message):<br>
+<p>Hover over the `+` sign > select `Add New Object` > select `Node`... you'll see the options for Cisco Devices are selectable.  Select `Cisco vIOS Router` and press `Enter`.  When router appears on lab, right-click on it > select `Start`, then double click on router to open up device console (select `Open Link` on the popup message):</p><br>
 <br>
 <img src="images/Test3.png" width="400"/> <img src="images/Test4.png" width="400"/><br>
 
