@@ -293,6 +293,7 @@ d) Test functionality<br>
 <br>
 Login to EVE-NG via Web GUI and create a `new lab` named "Test":<br>
 <br>
+
 | Login    | Password |
 |---------|---------|
 | admin | eve
