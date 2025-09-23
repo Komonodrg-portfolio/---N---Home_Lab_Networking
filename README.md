@@ -286,17 +286,17 @@ We must now change the name of the file via the `mv` command and fix permissons 
 |---------|---------|
 | 3) Change name of .qcow2 files in both folders to `virtioa.qcow2` |  -`mv vios-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow2` <br> -`mv viosl2-adventerprisek9-m.spa.159-3.m8.qcow2 virtioa.qcow2` |
 | 4) Fix file permissions  | `/opt/unetlab/wrappers/unl_wrapper -a fixpermissions` |
-
+<br>
 <img src="images/Root3.png" width="800"/>
 <br>
 d) Test functionality<br>
 <br>
-Login to EVE-NG via Web GUI and create a `new lab` named "Test":<br>
+Login to EVE-NG via Web GUI and create a `new lab` named "Test": <br> 
 <br>
-
-| Login    | Password |
-|---------|---------|
-| admin | eve
+| Login | Password |
+|-------|----------|
+| root  | eve      |
+| admin | eve      |
 
 
 <br>
@@ -304,7 +304,7 @@ Login to EVE-NG via Web GUI and create a `new lab` named "Test":<br>
 <br>
 <p>Hover over the `+` sign > select `Add New Object` > select `Node`... you'll see the options for Cisco Devices are selectable.  Select `Cisco vIOS Router` and press `Enter`.  When router appears on lab, right-click on it > select `Start`, then double click on router to open up device console (select `Open Link` on the popup message):</p><br>
 <br>
-<img src="images/Test3.png" width="400"/> <img src="images/Test4.png" width="400"/><br>
+<img src="images/Test3.png" width="400"/> <img src="images/Test4.png" width="400"/>
 
 
 
