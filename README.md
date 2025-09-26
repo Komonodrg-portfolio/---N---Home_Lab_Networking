@@ -130,16 +130,20 @@ Open up **Terminal** to install VMWare:
 ### 1. Install EVE-NG VM in VMWare
 Follow the [official EVE-NG installation guide](https://www.eve-ng.net/index.php/documentation/) to learn bare-metal setup or continue on to see how to set it up in VMware.<br>
 <br>
-Whether you are running it on Windows or Linux (Mint), the setup process is pretty much the same:
+Whether you are running it on Windows or Linux (Mint), the setup process is pretty much the same:<br>
 <br> 
-a) Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
-<br> 
-**a) EVE-NG CE.iso**<br> 
-**b) Client Side Tools** (Windows/Linux)<br>
+a) Download EVE-NG & Required Components<br>
+
+Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
+
+- **EVE-NG CE.iso**<br> 
+- **Client Side Tools** (Windows/Linux)<br>
 <br> 
  <img src="images/EVENGVM1.png" width="400"/>  <img src="images/EVENGVM1.png" width="400"/>
  
-b) In VMWare, click `file` >  `New Virtual Machine...`  > ...
+b) Create VM (Virtual Machine)<br>
+
+In VMWare, click `file` >  `New Virtual Machine...`  > ...
 
 <img src="images/EVENGVM3.png" width="400"/>  <img src="images/EVENGVM4.png" width="400"/> <br> 
 
@@ -151,7 +155,9 @@ b) In VMWare, click `file` >  `New Virtual Machine...`  > ...
 <img src="images/EVENGVM10.png" width="400"/><br>
 <br> 
 
-c) Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
+c) Power on EVE-NG VM<br>
+
+Select the EVE-NG instance in VMWare and click `start`, the VM will power up, ask a few setup questions through menus (select default selections through menus until installation completes)<br> 
 
 It will reboot twice during installation, just be patient and you will eventually be met with an IP address to use to login via your PC browser:
 
@@ -187,6 +193,7 @@ Click in VM window, login (press `ENTER` to get login prompt) and update your EV
 | Login    | Password |
 |---------|---------|
 | `root` | `eve`|
+| `admin` | `eve`|
 
 To update EVE-NG VM, after logging in, enter command:
 
@@ -229,7 +236,10 @@ sudo apt install docker.io
 
 
 
-e) Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
+e) Login to EVE-NG webgui<br>
+
+
+Confirm ou are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
 <p float="center">
   <img src="images/EVENGVM13.png" width="400" />
   <img src="images/EVENGVM14.png" width="400" />
