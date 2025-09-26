@@ -137,8 +137,8 @@ a) Download EVE-NG & Required Components<br>
 Navigate to [EVE-NG Download page](https://www.eve-ng.net/index.php/download/) and download both: <br>
 
 - **EVE-NG CE.iso**<br> 
-- **Client Side Tools** (Windows/Linux)<br>
- <br> 
+- **Client Side Tools** (Windows/Linux)
+  
  <img src="images/EVENGVM1.png" width="400"/><img src="images/EVENGVM1.png" width="400"/><br>
  
 b) Create VM (Virtual Machine)<br>
