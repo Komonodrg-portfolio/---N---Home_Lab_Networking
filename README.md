@@ -244,7 +244,7 @@ sudo apt install docker.io
 e) Login to EVE-NG webgui<br>
 
 
-Confirm ou are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
+Confirm you are able to access EVE-NG by opening up a web brower (Firefox/Chrome) and typing in the IP Address given by EVE-NG VM:
 <p float="center">
   <img src="images/EVENGVM13.png" width="400" />
   <img src="images/EVENGVM14.png" width="400" />
