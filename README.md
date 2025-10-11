@@ -332,3 +332,14 @@ From WinSCP (Windows) or File Explorer (Linux), navigate to `/opt/unetlab/addons
 
 From EVE-NG cli (command line interface), enter command:
 
+<h2> 🤳 Connect with me:</h2>
+
+[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="left" alt="JoshMadakor | Tik Tok" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/tiktok.svg" />][tiktok]
+[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
+[tiktok]: https://tiktok.com/upcoming...
+[youtube]: https://www.youtube.com/@EvenSteveTech
+[instagram]: https://www.instagram.com/upcoming...
+[linkedin]: https://www.linkedin.com/in/steven-komono-71790197/
